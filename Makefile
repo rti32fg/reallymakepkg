@@ -97,6 +97,9 @@ install-scripts:
 	$(_INSTALL_EXE) \
 	  "$(_PROJECT)/termux-install-shared" \
 	  "$(BIN_DIR)/termux-install-shared"
+	$(_INSTALL_EXE) \
+	  "$(_PROJECT)/version-split" \
+	  "$(BIN_DIR)/version-split"
 
 install-configs:
 
